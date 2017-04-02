@@ -32,4 +32,5 @@ $(document).ready(function(){
     if($('.clase').length){
         MyApp.seccion.modulo();
     }
+
 });

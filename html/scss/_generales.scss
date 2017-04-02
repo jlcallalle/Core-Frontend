@@ -22,3 +22,14 @@ a {
     cursor: pointer;
     outline: none;
 }
+
+
+@mixin contenedor() {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contenedor {
+    @include contenedor;
+    padding: 0 20px;
+}

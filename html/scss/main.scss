@@ -1,12 +1,11 @@
 // Librerias sass
 @import '../componentes/normalize-scss/normalize';
+@import '../componentes/sass-mediaqueries/media-queries';
 
 // Dependecias del proyecto
 @import 'variables';
 @import 'ayudas';
 @import 'fuentes';
-
-// Dependecias JS
 
 // Patrones
 @import 'generales';
